@@ -1,0 +1,7 @@
+.container--categories
+  each category in categories 
+    .category
+      img.category__icon(src=category.icon, alt="")
+      h3.category__name #{category.category}
+      strong.category__score #{category.score}
+      span.category__over / 100 

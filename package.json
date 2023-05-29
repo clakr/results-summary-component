@@ -12,6 +12,7 @@
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.24",
     "typescript": "^5.0.2",
-    "vite": "^4.3.9"
+    "vite": "^4.3.9",
+    "vite-plugin-pug": "^0.3.2"
   }
 }

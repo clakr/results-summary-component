@@ -10,8 +10,6 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="src/_preflight.css" />
-    
-    <!-- Font -->
 
     <!-- JS Modules -->
     <script type="module" src="src/main.ts" async></script>
@@ -19,7 +17,28 @@
   </head>
   <body>
     <main>
-     <h1 class="sr-only"></h1>
+      <h1 class="sr-only"></h1>
+      <div class="card">
+        <div class="header">
+          <span class="header__heading">Your Result</span>
+          <strong class="header__score">
+            76
+            <small class="header__score--over">of 100</small>
+          </strong>
+          <div class="result">
+            <strong class="result__heading">Great</strong>
+            <p class="result__description">
+              Your performance exceed 65% of the people conducting the test
+              here!
+            </p>
+          </div>
+        </div>
+        <div class="container--summary">
+          <h2 class="summary__heading">Summary</h2>
+          <pug src="src/categories.pug" />
+          <button class="summary__cta">Continue</button>
+        </div>
+      </div>
     </main>
   </body>
 </html>
